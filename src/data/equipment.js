@@ -18,6 +18,7 @@ import shoulderPressImage from '../assets/images/equipment/Shoulder Press Machin
 import wideChestPressImage from '../assets/images/equipment/wideChestPress.webp';
 import legPressImage from '../assets/images/equipment/Leg Press Machine.webp';
 import smithMachineImage from '../assets/images/equipment/Smith Machine.webp';
+import legPressMuscleIcon from '../assets/images/Muscle Target Icons/Leg Press Machine.webp';
 import bicepsCurlMuscleIcon from '../assets/images/Muscle Target Icons/biciepsCurl icon.webp';
 import flatBenchPressMuscleIcon from '../assets/images/Muscle Target Icons/FlatBarbellBenchPress.webp';
 import inclineBenchPressMuscleIcon from '../assets/images/Muscle Target Icons/InclineBarbellBenchPress.webp';
@@ -117,6 +118,7 @@ export const EQUIPMENT = [
   machine({ id: 'chest-supported-t-bar-row', name: 'Plate-Loaded Chest-Supported T-Bar Row', category: 'back', image: tBarRowImage, targetMuscles: ['الظهر الأوسط', 'الظهر العريض', 'الكتف الخلفي', 'البايسبس'], shortDescription: 'تجديف T-Bar مع دعم للصدر لتقليل تحميل أسفل الظهر.', difficulty: 'intermediate' }),
   machine({ id: 'cable-jungle', name: 'Multi-Station Cable Jungle', category: 'back', image: cableJungleImage, targetMuscles: ['الظهر', 'البايسبس', 'الترايسبس', 'الكتف'], shortDescription: 'محطة كيبل متعددة الاستخدامات لتمارين السحب والدفع والعزل.' }),
   machine({ id: 'leg-extension', name: 'Leg Extension Machine', category: 'legs', image: legExtensionImage, targetMuscles: ['الفخذ الأمامي'], shortDescription: 'تمرين عزل للفخذ الأمامي عبر مد الركبة.' }),
+  machine({ id: 'leg-press', name: 'Leg Press Machine', category: 'legs', image: legPressImage, muscleIcon: legPressMuscleIcon, targetMuscles: ['الفخذ الأمامي', 'المؤخرة', 'الفخذ الخلفي'], shortDescription: 'جهاز ضغط الأرجل لتقوية الجزء السفلي من الجسم مع تحكم جيد في الحركة.' }),
   machine({ id: 'prone-leg-curl', name: 'Prone Leg Curl Machine', category: 'legs', image: proneLegCurlImage, targetMuscles: ['الفخذ الخلفي', 'عضلات الساق الخلفية'], shortDescription: 'تمرين ثني الساق من وضع الانبطاح للفخذ الخلفي.' }),
   machine({ id: 'hip-abductor', name: 'Plate-Loaded Hip Abductor', category: 'legs', image: hipAbductorImage, targetMuscles: ['عضلات الفخذ الخارجية', 'المؤخرة'], shortDescription: 'جهاز تباعد الفخذ لتقوية عضلات الورك والمؤخرة.' }),
   machine({ id: 'roman-chair', name: 'Roman Chair', category: 'legs', image: romanChairImage, targetMuscles: ['أسفل الظهر', 'المؤخرة', 'الفخذ الخلفي'], shortDescription: 'جهاز إطالة الظهر لتقوية السلسلة الخلفية للجسم.', difficulty: 'intermediate' }),
