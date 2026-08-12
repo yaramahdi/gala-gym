@@ -38,7 +38,7 @@ export function EquipmentItemCard({ equipment, onSelect }) {
         </div>
 
           <div className="flex flex-1 flex-col gap-2 p-3 sm:p-4">
-          <h3 className="text-sm leading-snug sm:text-base whitespace-normal break-words">{name}</h3>
+          <h3 className="text-sm leading-snug sm:text-base sm:whitespace-normal sm:break-words">{name}</h3>
           <div className="mt-auto flex items-center gap-2 text-[10px] text-white/50 sm:text-xs">
             {muscleIcon && (
               <img
